@@ -1,0 +1,31 @@
+ <html>
+    <head>
+        <title>
+            Bulb
+        </title>
+    </head>
+    <body>
+        <img src=" " alt="" width="" style="display:none;"><br>
+        <button>button on</button>
+        <button>button off</button>
+
+        <script>
+            let btn=document.getElementsByTagName("button")
+            btn[0].style.color="green";
+            btn[1].style.color="red";
+            let img=document.getElementsByTagName("img")
+            
+            btn[0].addEventListener("click",()=>{
+                img[0].setAttribute("src","https://th.bing.com/th?id=OIP.E0jSIrVy0lS6LIULac0rngHaKj&w=209&h=298&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2")
+                img[0].style.display="block"
+            })
+            btn[1].addEventListener("click",()=>{
+                img[0].setAttribute("src","https://th.bing.com/th?id=OIP.dTmDdvOWEO-0s7t0Z3Yr4gHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2")
+                img[0].style.display="block"
+            })
+        </script>
+    </body>
+</html> 
+
+
+
